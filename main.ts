@@ -1,3 +1,4 @@
+// Sizzle & Serve: hand-in program copies the game and screenshots to /output and writes the dossier.
 // Sizzle & Serve — make.fun entrypoint.
 // Copies the game and its screenshots into the output directory and
 // writes the dossier the judges read. Node stdlib only, fully offline.
