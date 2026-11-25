@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<title>Sizzle &amp; Serve — a tiny kitchen rush game</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="wrap">
+  <h1>Sizzle &amp; Serve</h1>
+  <p class="sub">A tiny kitchen rush game. Cook, chop, stack and serve before the orders run out.</p>
+  <canvas id="game" width="960" height="640" tabindex="0"></canvas>
+  <div class="controls">
+    <span><b>WASD / arrows</b> move</span>
+    <span><b>E / Space</b> pick up, chop, cook, stack, serve</span>
+    <span><b>Mouse</b> click a counter to walk there, click again to use it</span>
+    <span><b>R</b> restart after game over</span>
+  </div>
+  <p class="hint">Recipes: bun, patty, cheese, tomato, lettuce — in the order shown on the plate station. Raw patties cook on the stove, tomatoes and lettuce need the cutting board. Serve finished plates at the window. Three expired orders ends the shift.</p>
+</div>
+<script type="module" src="main.js"></script>
+</body>
+</html>

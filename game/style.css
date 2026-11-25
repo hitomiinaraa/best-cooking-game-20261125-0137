@@ -1,0 +1,40 @@
+/* Sizzle & Serve — warm kitchen look, plain CSS, no external assets. */
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #241a12;
+  color: #f6e8d4;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  text-align: center;
+}
+#wrap { max-width: 1000px; margin: 0 auto; padding: 12px 12px 28px; }
+h1 {
+  margin: 6px 0 2px;
+  font-size: 34px;
+  letter-spacing: 1px;
+  color: #ffc857;
+  text-shadow: 0 3px 0 #7a2e0e, 0 6px 14px rgba(0,0,0,.5);
+}
+.sub { margin: 0 0 10px; color: #d9b48f; font-size: 14px; }
+canvas {
+  display: block;
+  margin: 0 auto;
+  border: 4px solid #6b4423;
+  border-radius: 14px;
+  background: #3a2a1c;
+  box-shadow: 0 12px 40px rgba(0,0,0,.55);
+  max-width: 100%;
+  height: auto;
+  outline: none;
+}
+.controls {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  justify-content: center;
+  font-size: 13px;
+  color: #e8cfa8;
+}
+.controls b { color: #ffc857; }
+.hint { max-width: 720px; margin: 10px auto 0; font-size: 13px; color: #c9a87e; line-height: 1.5; }
